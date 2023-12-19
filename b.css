@@ -1,0 +1,31 @@
+body{
+    background-color: paleturquoise;
+    margin: 0%;
+    padding: 0;
+}
+div{
+    display: flex;
+    justify-content:center;
+
+}
+.a{
+    margin:100px;
+    height: 50%;
+    width: 25%;
+
+}
+#b{
+    background-color: palevioletred;
+    text-align: center;
+    text-decoration: solid;
+}
+#c{
+    background-color:blue;
+    text-align: center;
+    text-decoration: solid;
+}
+#d{
+    background-color: red;
+    text-align: center;
+    text-decoration: solid;
+}
