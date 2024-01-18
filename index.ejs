@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="a">
+<% if(locals.answer){%>
+    <h1>answer for the given code is <%= answer %></h1>
+<% }
+else{ %>
+    <h1> welcome guys</h1>
+    <% } %>
+    </div>
+    
+    
+    
+    <form action="/submit" method="post">
+        <label name="first number" >
+            <input type="number" placeholder="first number" name="first">
+        </label>
+        <label name="second number">
+            <input type="number" placeholder="second" name="second">
+        </label>
+        <button>answer</button>
+    </form>
+</body>
+</html>
